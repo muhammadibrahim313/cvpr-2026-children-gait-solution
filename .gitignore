@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+kaggle_working/
+*.joblib
+*.pt
+*.pth
+*.npz
+*.csv
+!outputs/README.md
+!models/README.md
+
