@@ -6,7 +6,7 @@ Selected public submission:
 
 ```text
 submission_stage3_cgc_t1_stage2t2.csv
-public score: 0.53536
+public score: 0.54177
 ```
 
 ## What Is Included
@@ -87,18 +87,28 @@ RMSE = 4.13856
 Public leaderboard result:
 
 ```text
-0.53536
+0.54177
 ```
 
 ## Artifact Publishing
 
-After running the notebook, publish the important files from `/kaggle/working` as a Kaggle dataset if model artifacts are requested:
+After running the notebook, publish the important generated artifacts from `/kaggle/working` as a Kaggle dataset if model artifacts are requested:
 
 ```text
 versioning/stage3_cgc_*/models/track1_stage3_cgc.joblib
 tables/stage3_cgc_*/stage3_patient_features.csv
 versioning/stage2_*/models/track2_tcn.pt
 submission_stage3_cgc_t1_stage2t2.csv
+```
+
+Useful optional files to include in the same artifact dataset:
+
+```text
+versioning/stage3_cgc_*/run_config.json
+versioning/stage3_cgc_*/run_summary.json
+tables/stage3_cgc_*/stage3_track1_oof_prob.csv
+tables/stage3_cgc_*/stage3_track1_thresholds.csv
+tables/stage2_*/stage2_track2_oof_pred.csv
 ```
 
 Raw competition data is not included in this repository.
