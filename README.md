@@ -32,7 +32,7 @@ Attach these two datasets to the Kaggle notebook:
 
 ```text
 /kaggle/input/competitions/cvpr-2026-the-first-ai-children-challenge
-/kaggle/input/datasets/qasminumber/cvpr-2026-data
+/kaggle/input/datasets/ibrahimqasimi/cvpr-2026-main-data
 ```
 
 Only these two inputs are required.
@@ -92,7 +92,15 @@ Public leaderboard result:
 
 ## Artifact Publishing
 
-After running the notebook, publish the important generated artifacts from `/kaggle/working` as a Kaggle dataset if model artifacts are requested:
+Public artifact dataset:
+
+```text
+https://www.kaggle.com/datasets/ibrahimqasimi/cvpr-2026-children-gait-solution-artifacts
+```
+
+This dataset contains the generated model files, feature tables, run summaries, and selected submission CSV.
+
+After running the notebook, the important generated artifacts from `/kaggle/working` are:
 
 ```text
 versioning/stage3_cgc_*/models/track1_stage3_cgc.joblib
